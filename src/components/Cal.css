@@ -1,0 +1,60 @@
+.cal{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 320px;
+    transition: background-color 0.3s;
+}
+#display{
+    width: 93%;
+    height: 30px;
+    text-align: right;
+    font-size: 32px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+button {
+    height: 60px;
+    font-size: 26px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #dcdcdc;
+}
+.equal{
+    background-color: rgb(56, 132, 56);
+    color: white;
+    font-size: 32px;
+    transition: all 0.2s ease-in-out;
+}
+.equal:hover{
+    background-color: #dcdcdc;
+    color: rgb(56, 132, 56);
+    border: 2px solid rgb(56, 132, 56);
+}
+.clear{
+    background-color: red;
+    color: white;
+    font-size: 28px;
+    transition: all 0.2s ease-in-out;
+}
+.clear:hover{
+    background-color: #dcdcdc;
+    color: red;
+    border: 2px solid red;
+}
